@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    <head>
+      <meta charset="UTF-8">
+      <title>WebHomework</title>
+    
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <link rel="stylesheet" href="style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+<!-- Navigation Bar -->
+        <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                  </div>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="https://mbartlettnix.github.io/WebDevelopment/"><span class="glyphicon glyphicon-home"></a></li>
+                    <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://nataliekramer.github.io/webdevelopment-challenge/temperature_latitude_plot.html#">Max Temp</a></li>
+                                <li><a href="https://nataliekramer.github.io/webdevelopment-challenge/humidity_latitude_plot.html#">Humidity</a></li>
+                                <li><a href="https://nataliekramer.github.io/webdevelopment-challenge/cloudiness_latitude_plot.html#">Cloud Cover</a></li>
+                                <li><a href="https://nataliekramer.github.io/webdevelopment-challenge/wind_latitude_plot.html#">Wind Speed</a></li>
+                             </ul>
+                    </li>
+                    <li><a href="https://nataliekramer.github.io/webdevelopment-challenge/comparison.html#">Comparison</a></li>
+                    <li><a href="https://nataliekramer.github.io/webdevelopment-challenge/data.html#">Data</a></li>
+                  </ul>
+                </div>
+              </nav>
+
+<!--Page Title  -->
+            <div class="jumbotron text-center">
+                <h1>Relationship of Latitude and Wind Speed</h1>
+                <!-- <p>visualizations and data of API calls engineered with Pandas</p>  -->
+            </div>
+
+<!-- Row One -->
+            <div class="container-fluid">
+                    <div class="row">
+<!-- Left Panel  -->
+                        <div class="col-sm-8">    
+                                    <div class="panel panel-default">
+                                        <div class="panel-body">
+                                            <!-- <h2>Summary: Latitude vs Wind Speed</h2> -->
+                                            <!-- <hr> -->
+                                            <img class="col-xs-12"src="images/latitude_wind_plot.png" alt="Latitude vs Wind">
+                                            <p>Although Wind Speed doesn't correlate with latitude, it does appear to have 
+                                                instances of higher Wind Speed nearing the poles.
+                                            </p>
+                                       </div>
+                                    </div>
+                        </div>
+<!-- Right Panel -->
+                            <div class="col-sm-4">
+                                    
+                                    <div class="panel panel-default">
+                                        <div class="panel-body">
+                                            <h4>Visualizations</h4>
+                                            <hr>
+                                                <div class="col-xs-6">
+                                                    <a href="https://nataliekramer.github.io/webdevelopment-challenge/temperature_latitude_plot.html#"><img class="img-fluid" src="images/latitude_temperature_plot.png" style="width:100%"></a>
+                                                    <a href="https://nataliekramer.github.io/webdevelopment-challenge/cloudiness_latitdue_plot.html#"><img src="images/latitude_cloudiness_plot.png" style="width:100%"></a>
+                                                </div>
+                                                <div class="col-xs-6">
+                                                    <a href="https://natalekramer.github.io/webdevelopment-challenge/humidity_latitude_plot.html#"><img src="images/latitude_humidity_plot.png" style="width:100%"></a>
+                                                    <a href="https://nataliekramer.github.io/webdevelopment-challenge/wind_latitude_plot.html#"><img src="images/latitude_wind_plot.png" style="width:100%"></a>
+                                                </div> 
+                                                   
+                                        </div> 
+                                    </div>
+                            </div>
+                    </div>
+            </div>
+        <footer class="footer">
+                <div class="container">
+                        <a href="https://github.com/nataliekramer"><span class="text-muted">github.com/nataliekramer</span></a>
+                </div>
+        </footer>
+    </body>
+</html>
